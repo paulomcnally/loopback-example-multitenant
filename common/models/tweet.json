@@ -1,0 +1,20 @@
+{
+  "name": "tweet",
+  "plural": "tweets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
